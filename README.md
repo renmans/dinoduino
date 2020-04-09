@@ -25,7 +25,8 @@ void loop() {
     }
 
     if (duck_data >= 250) {
-        Keyboard.write(0x20);
+        Keyboard.write(0xE0);
+        Keyboard.write(0x50);
     }
 }
 ```
