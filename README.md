@@ -4,7 +4,7 @@
 
 
 ## Simple solution
-If you have Leonardo, Esplora, Zero or Due boards, the solution looks like this (you don't need a python script):
+If you have Leonardo, Esplora, Zero or Due boards, solution looks like this (you don't need a python script):
 
 ```C++
 #include <Keyboard.h>
@@ -32,17 +32,17 @@ void loop() {
 ```
 
 ## Running
-Assemble the device as shown in the diagram
+Assemble the device as shown in diagram
 
 ![Assembly Diagram](src/img/diagram.png)
 
-Attach the photoresistors to the points shown in the image
+Attach photoresistors to the points shown in image
 
 ![Attachment Points](src/img/points.png)
 
-Upload the sketch to the Board and connect it to your computer using Arduino IDE
+Upload sketch to the Board and connect it to your computer using Arduino IDE
 
-Install the necessary libraries and run the script
+Install necessary libraries and run script
 ```
 pip install -r requirements.txt
 python3 main.py
