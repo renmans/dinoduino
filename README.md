@@ -2,6 +2,7 @@
 
 ![Dinoduino Gif](src/img/game.gif)
 
+The program responds to changes in sensor readings and sends data to the virtual keyboard for control.
 
 ## Simple solution
 If you have Leonardo, Esplora, Zero or Due boards, solution looks like this (you don't need a python script):
